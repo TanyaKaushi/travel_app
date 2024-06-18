@@ -1,0 +1,9 @@
+.main .image{
+margin: auto;
+text-align: center;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-top: 300px;
+width: 100px;
+}

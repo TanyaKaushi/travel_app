@@ -1,0 +1,196 @@
+
+.header-main{
+    position: relative;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+.video{
+    width: 100%;
+    opacity: 0.1 black;
+    height: 800px;
+    object-fit: cover;
+}
+
+.header-main .content{
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+.header-main .content .title-1{
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+    margin-bottom: 50px;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+.header-main .content .title-2{
+    font-size: 60px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+    font-family: "Playwrite FR Moderne", cursive;
+}
+
+.header-main .content .title-3{
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+}
+
+
+.header-main .content .search-bar{
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    font-family: "Lato", sans-serif;
+    font-size: 15px;
+    margin-top: 30px;
+    border: 1px solid white;
+    width: fit-content;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.584);
+    border-radius: 50px;
+}
+
+.header-main .content .search-bar .form-input{
+    padding: 5px 10px;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    background: transparent;
+    border: none;
+    outline: none !important;
+    color: rgb(57, 57, 57);
+}
+
+.header-main .content .search-bar .calender-input{
+    padding: 5px 10px;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    background: transparent;
+    color: rgb(57, 57, 57);
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.header-main .content .search-bar .button{
+    padding: 0px 50px;
+    border: none;
+    height: 30px;
+    border-radius: 20px;
+    background: rgb(255, 255, 255);
+    color: #112247;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 11px;
+}
+
+.slider{
+    padding: 0px 200px;
+    margin-top: -140px;
+}
+
+.slider .slick-next{
+    /* right: 40px;
+    z-index: 999; */
+    display: none !important;
+}
+
+.slider .slick-track{
+    display: flex;
+    gap: 20px;
+}
+
+.slider .slick-prev{
+    /* left: 40px;
+    z-index: 999; */
+    display: none !important;
+}
+
+.slider .card  {
+    background: rgb(255, 255, 255);
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+    height: 100%;
+    border: none;
+    border: 1px solid rgb(240, 240, 240);
+    box-shadow: rgba(203, 203, 203, 0.24) 0px 3px 8px;
+    margin-bottom: 20px;
+}
+
+.slider .card  .image{
+    font-size: 20px;
+    border-radius: 5px;
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider .card  .name{
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-family: "Playwrite FR Moderne", cursive
+}
+
+@media (max-width: 1024px) {
+    .slider {
+        padding: 0px 100px;
+        margin-top: -140px;
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .slider {
+        padding: 0px 30px;
+        margin-top: -140px;
+    }
+
+    .header-main .content .title-2 {
+        font-size: 30px;
+    }
+
+    .header-main .content .title-3 {
+        font-size: 15px;
+    }
+
+    .video {
+        width: 100%;
+        height: 500px;
+    }
+}
+
+@media (max-width: 578px) {
+
+    .header-main .content .title-2 {
+        font-size: 20px;
+    }
+
+    .header-main .content .title-3 {
+        font-size: 12px;
+    }
+
+    .header-main .content .title-1 {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+}

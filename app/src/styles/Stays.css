@@ -1,0 +1,107 @@
+.stays-main{
+    padding: 50px 150px;
+}
+
+.stays-main  .stays-slider{
+   
+}
+
+.stays-main  .stays-slider .title{
+    font-size: 30px;
+    text-align: center;
+    font-weight: 600;
+    font-family: "Lato", cursive;
+    margin-bottom: 20px;
+    color: #0e1c3b;
+}
+
+.stays-main  .stays-slider .sub-title{
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+    color: #0e1c3b;
+}
+
+.stays-main  .stays-slider .card-list{
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 50px 150px 0px 150px;
+}
+
+.stays-main  .stays-slider .card-list .card{
+    width: 100%;
+    text-align: center;
+    padding: 40px 30px;
+    border: 1px solid rgb(241, 241, 241);
+    border-radius: 10px;
+    box-shadow: rgba(171, 171, 171, 0.129) 0px 7px 20px 6px;
+    transition: 1s ease-in-out;
+}
+
+.stays-main  .stays-slider .card-list .card:hover{
+    transform: translateY(-5px);
+    cursor: pointer;
+}
+
+.stays-main  .stays-slider .card-list .card img{
+    width: 50px;
+    text-align: center;
+    margin: auto;
+}
+
+.stays-main  .stays-slider .card-list .card .t1{
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #272727;
+}
+
+.stays-main  .stays-slider .card-list .card .t2{
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(151, 151, 151);
+}
+
+@media (max-width: 1024px) {
+    .stays-main {
+        padding: 50px 100px;
+    }
+
+    .stays-main  .stays-slider .card-list{
+        display: flex;
+        gap: 20px;
+        justify-content: space-evenly;
+        padding: 50px 50px 0px 50px;
+    }
+
+    .stays-main  .stays-slider .card-list .card .t1{
+        font-size: 16px;
+    }
+    
+    .stays-main  .stays-slider .card-list .card .t2{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stays-main {
+        padding: 50px 50px;
+    }
+
+    .stays-main .stays-slider .card-list {
+        padding: 50px 10px 0px 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .stays-main .stays-slider .card-list {
+        display: block;
+        padding: 50px 10px 0px 10px;
+    }
+
+    .stays-main  .stays-slider .card-list .card{
+        margin-bottom: 10px;
+    }
+}

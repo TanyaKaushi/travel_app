@@ -1,0 +1,122 @@
+.info-main{
+    width: 100%;
+    height: fit-content;
+    padding: 50px 150px;
+}
+
+.info-main .card-item{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info-main .card-item .content{
+    margin: auto;
+}
+
+
+.info-main .card-item .content .text{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: "Playwrite FR Moderne", cursive;
+    line-height: 5rem;
+    text-align: center;
+    color: #0e1c3b;
+}
+
+.info-main .card-item .content .text .span{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #0e1c3b;
+}
+
+.info-main .card-item .content .input-box{
+    font-size: 15px;
+    border: 2px solid #2626267f;
+    height: 50px;
+    width: 300px;
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #2626267f;
+    cursor: pointer;
+}
+
+.info-main .card-item .content .icon{
+    height: 50px;
+    width: 60px;
+    text-align: center;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.info-main .card-item .content .icon:hover{
+    background-color: rgb(74, 74, 74);
+    cursor: pointer;
+}
+
+.info-main .image-part{
+    width: 50%;
+    height: 400px;
+}
+
+
+.info-main .image-part .image-div img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 0px 5px 5px 0px;
+}
+
+
+@media (max-width: 1024px) {
+
+    .info-main {
+        padding: 50px 50px;
+    }
+
+    .info-main .card-item{
+        display: block;
+        justify-content: space-between;
+        height: fit-content;
+    }
+
+    .info-main .card-item .content {
+        padding: 20px 0px;
+    }
+    
+.info-main .image-part{
+    width: 100%;
+    height: 500px;
+}
+
+    .info-main .image-part .image-div img{
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        border-radius: 0px 5px 5px 0px;
+    }
+}
+
+@media (max-width: 768px) {
+    .info-main .card-item .content .text .span{
+        font-size: 30px;
+    }
+    
+    .info-main .image-part{
+        width: 100%;
+        height: 300px;
+    }
+    
+        .info-main .image-part .image-div img{
+            width: 100%;
+            height: 300px;
+        }
+}
