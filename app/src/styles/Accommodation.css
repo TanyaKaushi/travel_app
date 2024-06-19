@@ -7,30 +7,42 @@
 .info-main .card-item {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
     border-radius: 5px 0px 0px 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  
 }
 
 .info-main .card-item .content {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin: auto;
 }
 
-
 .info-main .card-item .content .text {
-    font-size: 25px;
+    font-size: 18px;
     font-weight: 500;
     font-family: "Lato", cursive;
-    line-height: 5rem;
     text-align: center;
     color: #0e1c3b;
+    position: absolute;
+    z-index: 1;
+    background: rgba(244, 244, 244, 0.718);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0px;
+    width: 100%;
+    padding: 20px 0px;
 }
 
 .info-main .card-item .content .text .span {
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 600;
     margin-bottom: 10px;
     color: #0e1c3b;
+    z-index: 1;
+    margin: 0px 50px;
 }
 
 .info-main .card-item .content .input-box {
@@ -63,16 +75,17 @@
 }
 
 .info-main .image-part {
-    width: 50%;
-    height: 400px;
+    
+    width: 100%;
+    height: 500px;
 }
 
-
 .info-main .image-part .image-div img {
+   
     width: 100%;
-    height: 400px;
+    height: 500px;
     object-fit: cover;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 5px;
 }
 
 
@@ -89,7 +102,7 @@
     }
 
     .info-main .card-item .content {
-        padding: 20px 0px;
+        padding: 0px 0px;
     }
 
     .info-main .image-part {
@@ -101,7 +114,6 @@
         width: 100%;
         height: 500px;
         object-fit: cover;
-        border-radius: 0px 5px 5px 0px;
     }
 }
 
@@ -123,5 +135,18 @@
     .info-main .card-item .content .text {
         line-height: 2.5rem;
         font-size: 18px;
+    }
+}
+
+@media (max-width: 578px) {
+
+    .info-main .card-item .content .text {
+        font-size: 13px;
+        top: 0px;
+    }
+
+    .info-main .card-item .content .text .span {
+        font-size: 20px;
+        margin: 0px 10px;
     }
 }

@@ -1,6 +1,8 @@
 import React from "react";
 import "../styles/Destinations.css";
 import d1 from "../assets/d1.jpg";
+import MostPopular from "./MostPopular";
+import Accommodation from "./Accommodation";
 
 const Destinations = () => {
   return (
@@ -53,24 +55,6 @@ const Destinations = () => {
               src="https://luxuryescapes.com/inspiration/wp-content/uploads/2023/02/shutterstock_1499136152-scaled.jpg"
             />
             <div className="title">Thailand</div>
-          </div>
-        </div>
-      </div>
-
-      <div className="line-3">
-        <div className="card">
-          <div className="zoom">
-          <img
-            className="image-card"
-            src="https://cdn.prod.website-files.com/61ad20e5b695cc23050e9552/650455e3a55850c27136f6b8_travel-bucket-list.jpg"
-          />
-          </div>
-          
-          <div className="text">
-            <div className="title">Plan You Trip With Travel Expert</div>
-            <div className="sub-title">
-              Out professional advisors can craft your perfect itinerary
-            </div>
           </div>
         </div>
       </div>

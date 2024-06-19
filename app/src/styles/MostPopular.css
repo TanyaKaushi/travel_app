@@ -1,5 +1,5 @@
 .most-popular-main {
-    padding: 100px 150px;
+    padding: 50px 150px;
 }
 
 .most-popular-main .main-card {
@@ -132,7 +132,7 @@
 
 @media (max-width: 1024px) {
     .most-popular-main {
-        padding: 100px 50px;
+        padding: 10px 50px;
     }
 
     .most-popular-main .slick-prev {

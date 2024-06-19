@@ -45,3 +45,9 @@
     background: #0e1c3b;
     border-radius: 0.2rem;
   }
+
+  @media (max-width: 578px) {
+    .title-2 {
+      font-size: 20px;
+  }
+  }

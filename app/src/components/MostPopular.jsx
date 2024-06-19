@@ -147,7 +147,7 @@ const MostPopular = () => {
 
   return (
     <div className="most-popular-main">
-      <div className="title-2">Top Destinations</div>
+      <div className="title-2">Trending Destinations</div>
       <div>
         <Slider {...settings}>
           {topDestinations.map((destination, index) => (

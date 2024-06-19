@@ -151,7 +151,6 @@ const BestChoice = () => {
         <Slider {...settings}>
           {topDestinations.map((destination, index) => (
             <div className="main-card" key={index}>
-              <div className="feature-word">featured</div>
               <div className="fav-icon">
                 <i class="bi bi-suit-heart-fill" style={{ color: "white" }}></i>
               </div>

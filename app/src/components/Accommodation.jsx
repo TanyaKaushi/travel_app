@@ -44,7 +44,6 @@ const Accommodation = () => {
           <div className="text">
             Find Your Ideal <div className="span">{accommodation[currentAccommodationIndex]}</div>  for a Perfect Getaway.
           </div>
-          
         </div>
 
         <div className="image-part">

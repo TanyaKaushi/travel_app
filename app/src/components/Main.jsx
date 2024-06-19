@@ -9,7 +9,8 @@ import Footer from "./Footer";
 import Info from "./Info";
 import Stays from "./Stays";
 import Accommodation from "./Accommodation";
-import load from "../assets/load.gif"
+import load from "../assets/load.gif";
+import Contact from "./Contact";
 
 const Main = () => {
   const [loading, setLoading] = useState(true);
@@ -23,18 +24,20 @@ const Main = () => {
   return (
     <div>
       {loading ? (
-        
-        <div className="main"><img src={load} className="image"/></div>
+        <div className="main">
+          <img src={load} className="image" />
+        </div>
       ) : (
         <>
           <NavigationBar />
           <Header />
           <Info />
           <MostPopular />
-          <Accommodation />
           <Destinations />
           <Stays />
+          <Accommodation />
           <BestChoice />
+          <Contact />
           <Footer />
         </>
       )}

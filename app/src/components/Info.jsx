@@ -3,6 +3,7 @@ import "../../src/styles/Info.css";
 
 const Info = () => {
   return (
+    <section id="about">
     <div className="info-main">
       <div className="title-1">Looking to embark on your next adventure ? </div>
       <div className="title-2">
@@ -15,6 +16,7 @@ const Info = () => {
         doubts and ready to embark on a seamless travel experience.
       </div>
     </div>
+    </section>
   );
 };
 

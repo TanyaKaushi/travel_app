@@ -25,6 +25,7 @@ const NavigationBar = () => {
               <Nav.Link className="link" href="#">About</Nav.Link>
               <Nav.Link className="link" href="#">Top Destinations</Nav.Link>
               <Nav.Link className="link" href="#">Why Us</Nav.Link>
+              <Nav.Link className="link" href="#">Accommodations</Nav.Link>
               <Nav.Link className="link" href="#">Best Choices</Nav.Link>
               <Nav.Link><i class="bi bi-person-fill"></i></Nav.Link>
             </Nav>
