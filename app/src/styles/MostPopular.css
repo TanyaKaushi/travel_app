@@ -143,17 +143,18 @@
 @media (max-width: 768px) {
     .most-popular-main .slick-track {
         display: flex;
-        gap: 0px;
+        gap: 0px !important;
         height: 100%;
         padding: 30px;
         width: 100%;
     }
 
     .most-popular-main .slick-prev {
-        left: -30px;
+        left: -32px;
     }
 
-    .most-popular-main .slick-track {
-        gap: 1px;
+    .most-popular-main .slick-next {
+        right: -22px;
     }
+ 
 }
