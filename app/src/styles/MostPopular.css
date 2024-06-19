@@ -150,6 +150,10 @@
     }
 
     .most-popular-main .slick-prev {
-        left: -10px;
+        left: -30px;
+    }
+
+    .most-popular-main .slick-track {
+        gap: 1px;
     }
 }
