@@ -48,6 +48,7 @@
     width: 50px;
     text-align: center;
     margin: auto;
+    object-fit: cover;
 }
 
 .stays-main  .stays-slider .card-list .card .t1{

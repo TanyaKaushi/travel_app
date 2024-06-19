@@ -64,10 +64,10 @@ const Accommodation = () => {
             <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/114961172.jpg?k=f47aedef58640e9a1b63aef1a39bbc2914cbaab0a0f36aad33a5754a855c9d97&o=&hp=1" />
             </div>
             <div className="image-div">
-            <img src="https://q-xx.bstatic.com/xdata/images/hotel/max500/206837856.jpg?k=0cea9f2f515d60fee1ebaa7994a26be82db6682b2d8397e10398c3a9cd4edc76&o=" />
+            <img src="https://www.balitecture.com/wp-content/uploads/2021/09/Bali-Architects-Balitecture-Portfolio-Modern-Bali-Design-5.jpg" />
             </div>
             <div className="image-div">
-            <img src="https://www.newconcept180.com/images/blog/deck-addition.png" />
+            <img src="https://www.home-designing.com/wp-content/uploads/2013/07/1-party-guest-house.jpeg" />
             </div>
           </Slider>
         </div>
